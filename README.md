@@ -1,39 +1,64 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Portfolio
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This project is created with the purpose of introducing 
+my future employers and partners with me, my skills and previous projects I have done.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+### Existing Features
 
-Another blue button should appear to click: *Open Browser*.
+### Features Left to Implement
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Technologies Used
 
-A blue button should appear to click: *Make Public*,
+## Testing
 
-Another blue button should appear to click: *Open Browser*.
+## Deployment
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Credits
 
-## Updates Since The Instructional Video
+### Content
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Media
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Acknowledgements
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ My web page consists of 4 sections:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    * About
+    * Experience
+    * Portfolio
+    * Download
 
---------
+#### About
+ 
+There you can also see my picture, read a short description and read more about my strengths. A button below gives the user 
+the opportunity to download my whole Resume as a separate file. Button bit further down takes the user to Contact form in case the user wants
+to contact me for future projects. The lowest part of footer there are 4 social media links where users can connect directly with me. These links follow through 
+all sections.
 
-Happy coding!
+#### Experience
+
+This section introduces users with my hard skills and my previous work experience. The same all 4 social media links are available.
+
+#### Portfolio
+
+In this section users have been introduced with my previously done projects as a developer. Projects are made as a part of my study process.
+More down users can see welcoming message to work together. User has a chance to contact me, filling the form. After pressing the button -
+Send Request user can read Thank You message from me, which informs that i will contact back within 1-2 business days.
+
+#### Download
+
+The last section gives to the user opportunity to open and download my complete Resume as a pdf file in separate window.
+
+
+
+The web page has been made very simple and easy understandable for the user. It is easy to navigate through sections and 
+easy to find a way to contact me.
+
+
