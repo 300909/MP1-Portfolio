@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand d-lg-none"  href="#"><h2>Dina Papsujevica</h2><h3>Full Stack Developer</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,42 +53,44 @@
     <!--My best project done-->
     <section id="my-skills">
         <h2>My best project done</h2>
+    <div class="container">
         <div class="row"> 
-            <div class="column">
-                <img src="../images/ac-amager.jpg" style="width:100%">
-                <img src="../images/artberry.png" style="width:100%">
-                <img src="../images/pet.jpg">
-                <img src="../images/usma.png">
+            <div class="col-12">
+                <img src="../images/baka3-2.jpg" alt="image">
+                <img src="../images/artberry.png" alt="image">
             </div>
         </div>
+    </div>
     </section>
     <!-- /.My best project done-->
 
     <!--Want to work together table-->
     <article class="container">
-        <section id="work-experience">
-        <h2>Want to work together?</h2>
-        <section class="container">
+        <section id="work-together">
+            <h2>Want to work together?</h2>
+        <div class="container">
             <div class="row bg-color-contact">
-                <div class="col">
+                <div class="col-12">
                     <div class="center-form">
                         <form>
                             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" 
+                            <textarea rows="5" name="message" id="message" class="form-control" 
                                 placeholder="Message" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-secondary">Send Request</button>
+                                    <button type="submit" class="btn btn-primary btn-sm">Send Request</button>
+                                    <a href="request.html" role="button" class="btn btn-primary btn-sm">Send Request</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
-    <!-- /.Want to work together table-->
     </article>
+    <!-- /.Want to work together table-->
     <!--Footer-->
     <footer>
         <div class="container-fluid">
