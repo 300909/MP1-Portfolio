@@ -3,40 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/f3b3f003e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <article>
-        <!--Header-->
-        <header>
-        nav bar in here
-        </header>
-        <!-- /.Header-->
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand d-lg-none"  href="#"><h2>Dina Papsujevica</h2><h3>Full Stack Developer</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="assets/css/cv/resume.pdf">Download</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /.Nav-->
+    <!--Top image and cover text-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" id="img-fluid">
+                    <div class="cover-text">
+                        <h2 class="d-none d-md-block">Dina Papsujevica</h2>
+                        <h3 class="d-none d-md-block">Full Stack Developer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.Top image and cover text-->
 
-        <!--Top image and cover text-->
-        <section>
-        top image and cover text in here
+    <!--My best project done-->
+    <section id="my-skills">
+        <h2>My best project done</h2>
+        <div class="row"> 
+            <div class="column">
+                <img src="../images/ac-amager.jpg" style="width:100%">
+                <img src="../images/artberry.png" style="width:100%">
+                <img src="../images/pet.jpg">
+                <img src="../images/usma.png">
+            </div>
+        </div>
+    </section>
+    <!-- /.My best project done-->
+
+    <!--Want to work together table-->
+    <article class="container">
+        <section id="work-experience">
+        <h2>Want to work together?</h2>
+        <section class="container">
+            <div class="row bg-color-contact">
+                <div class="col">
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" 
+                                placeholder="Message" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- /.Top image and cover text-->
-
-        <!--My best project done-->
-        <section>
-        My previously done project links or pictures
-        </section>
-        <!-- /.My best project done-->
-
-        <!--Want to work together table-->
-        <section>
-        Want to work together table in here
-        action in here
-        </section>
-        <!-- /.Want to work together table-->
-
-        <!--Footer-->
-        <footer>
-        Social media links in here
-        </footer>
-        <!-- /.Footer-->
+    <!-- /.Want to work together table-->
     </article>
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="col-12 social-networks">
+                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+                </ul>
+            </div>
+        </div>        
+    </footer>
+    <!-- /.Footer-->    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
