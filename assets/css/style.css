@@ -12,7 +12,7 @@ body {
     font-family: Lato;
     font-size: 110%;
     letter-spacing: 4px;
-    padding: 10px 0;
+    padding: 2px 0;
 }
 
 .nav-item a {
@@ -47,7 +47,7 @@ body {
 
 
 /*---------------------------------------Top-image */
-/*#img-fluid {
+#img-fluid {
     height: 500px;
     width: 100%;
     background: url(../images/baka3.jpg) no-repeat;
@@ -55,11 +55,16 @@ body {
 
 @media (max-width: 630px) {
 #img-fluid {
-        height: 500px;
+        height: 150px;
         background-size: cover;
         background-position: center;
-        background: url(../images/baka3-2.jpg) no-repeat;
+        
     }
+}
+
+.image-col-12 {
+    flex: 0 0 100%;
+    max-width: 88%;
 }
 
 /*---------------------------------------Overtext */
@@ -203,9 +208,8 @@ body {
     margin-top: 30px 0;
 }
 
-.skills-icons {
-    line-height: 20px;
-    height: 200px;
+.fab {
+    height: 20px;
     width: 100%;
 }
 
