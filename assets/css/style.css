@@ -84,7 +84,17 @@ body {
 .cover-text h3 {
     font-size: 30px;
     float: right;
-}    
+}
+
+.cover-text-small {
+    color:#34495E; 
+    font-family: Oswald;
+    letter-spacing: 1px;
+  
+}
+
+
+
 
 
 /*---------------------------------------Paper plane section */
@@ -142,7 +152,6 @@ body {
 
 #text-about {
     width: 100%;
-    clear: both;
     line-height: 30px;
     margin-bottom: 40px;
     margin-top: 50px;
@@ -183,15 +192,16 @@ body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 630px) {
 #bottom-image {
-        height: 420px;
+        height: 150px;
         background-size: cover;
         background-position: center;
-        background: url(../images/cph-nyhavn-1.jpg) no-repeat;
-
+        position: absolute;
     }
 }
+
+
 
 /*---------------------------------------Skills */
 
