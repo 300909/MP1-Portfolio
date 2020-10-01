@@ -4,6 +4,12 @@ body {
     font-family: Lato;
     color: #34495E;
 }
+@media (max-width: 630px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
 
 /*---------------------------------------Nav */
 
@@ -25,8 +31,9 @@ body {
 
 @media (max-width: 630px) {
     .nav-item a {
-        font-size: 55%;
+        font-size: 50%;
         margin-left: 0%;
+        font-weight: 700;
     }
     
 }
@@ -85,11 +92,20 @@ body {
     float: right;
 }
 
+
 .cover-text-small {
     color:#34495E; 
     font-family: Oswald;
     letter-spacing: 1px;
+    text-transform: uppercase;
   
+}
+.cover-text-small h2 {
+    font-size: 33px;
+}
+
+.cover-text-small h3 {
+    font-size: 20px;
 }
 
 
@@ -256,6 +272,19 @@ body {
     border-color: transparent;
 }
 
+@media (max-width: 630px) {
+    .skills-icons h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 630px) {
+    .soft-skills {
+        padding-top: 0px;
+    }
+}
+
+
 /*---------------------------------------Work experience */
 
 #work-experience {
@@ -290,6 +319,24 @@ body {
 .time-table {
     vertical-align: top;
     margin-top: 0;
+}
+
+@media (max-width: 630px) {
+    .table h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 630px) {
+    .table p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 630px) {
+    .dates {
+        font-size: 14px;
+    }
 }
 
 
@@ -337,14 +384,14 @@ body {
 
 /*---------------------------------------Work together */
 
-#work-together {
+.work-together {
     height: 500px;
     width: 100%;
     padding-top: 50px;
     background-color: #f2d7d5;
 }
 
-#work-together h2 {
+.work-together h2 {
     text-transform: uppercase;
     text-align: center;
     margin: 30px 0;
@@ -376,5 +423,11 @@ body {
     margin: 1%;
     padding: 5%;
     color: #34495E;
+}
+
+@media (max-width: 630px) {
+    .social-networks i {
+        font-size: 185%;
+    }
 }
 
