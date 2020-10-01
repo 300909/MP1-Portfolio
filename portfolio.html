@@ -80,7 +80,9 @@
                                 placeholder="Message" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-primary btn-sm">Send Request</button>
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#requestModal">
+                                    Send Request
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -90,25 +92,29 @@
         </div>
         </section>
     </article>
-    <div class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Thank You for Your request!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
+    <!-- Button trigger modal -->
+    
+    <!-- Modal used from Bootstrap examples -->
+            <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestModalLabel">Thank You for Your request!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    I will answer within 1-2 business days.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>I will answer within 1-2 business days.</p>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-            </div>
-        </div>
-    </div>
     <!-- /.Want to work together table-->
+
     <!--Footer-->
     <footer>
         <div class="container-fluid">
