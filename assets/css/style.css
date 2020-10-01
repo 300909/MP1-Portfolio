@@ -4,6 +4,7 @@ body {
     font-family: Lato;
     color: #34495E;
 }
+
 @media (max-width: 630px) {
     h2 {
         font-size: 1.5rem;
@@ -51,7 +52,6 @@ body {
 }
 
 
-
 /*---------------------------------------Top-image */
 #img-fluid {
     height: 500px;
@@ -73,7 +73,7 @@ body {
     max-width: 88%;
 }
 
-/*---------------------------------------Overtext */
+/*---------------------------------------Cover text */
 
 .cover-text {
     color:#34495E;
@@ -185,10 +185,6 @@ body {
     border-color: #C0392B;
 }
 
-.btn:active {
-    border-color: #C0392B;
-    background-color: #C0392B;
-}
 
 #btn-contact {
     padding-top: 220px;
@@ -404,7 +400,6 @@ body {
     padding-bottom: 10px;
 }
 
-/*---------------------------------------Request text */
 /*---------------------------------------Footer links */
 
 

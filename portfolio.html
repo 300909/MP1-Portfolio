@@ -11,7 +11,9 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <!--Nav-->
+
+<!--Nav-->
+<!--Taken from Bootstrap-->
     <div class="container-fluid bg-light">
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -28,8 +30,10 @@
             </li>
         </ul>
      </div>
-    <!-- /.Nav-->
-    <!--Top image and cover text-->
+<!-- /.Nav-->
+
+<!--Top image and cover text-->
+<!--Taken from Love Running project-->
     <section>
         <div class="container-fluid">
             <div class="row">
@@ -42,9 +46,10 @@
             </div>
         </div>
     </section>
-    <!-- /.Top image and cover text-->
+<!-- /.Top image and cover text-->
 
-    <!--My best project done-->
+<!--My best project done-->
+<!--inspired from w3schools.com Responsive Image Grid-->
     <div class="container">
         <div class="row">
             <div class="project-done">
@@ -62,59 +67,57 @@
             </div>
         </div>
     </div>
-    <!-- /.My best project done-->
+<!-- /.My best project done-->
 
-    <!--Want to work together table-->
-    <!--snippet taken from Whiskey drop course-->
-
-           
-        <div class="container">
-            <div class="row bg-color-contact">
-                <div class="col-12 work-together">
-                    <h2>Want to work together?</h2>
-                    <div class="center-form">
-                        <form>
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                            <textarea rows="5" name="message" id="message" class="form-control" 
-                                placeholder="Message" required></textarea>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#requestModal">
-                                    Send Request
-                                    </button>
-                                </div>
+<!--Want to work together table-->
+<!--snippet taken from Whiskey drop course-->  
+    <div class="container">
+        <div class="row bg-color-contact">
+            <div class="col-12 work-together">
+                <h2>Want to work together?</h2>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                        <textarea rows="5" name="message" id="message" class="form-control" 
+                        placeholder="Message" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#requestModal">
+                                Send Request
+                                </button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-      
-    <!-- Button trigger modal -->
-    
-    <!-- Modal used from Bootstrap examples -->
-            <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="requestModalLabel">Thank You for Your request!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    I will answer within 1-2 business days.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-                </div>
-            </div>
-            </div>
-    <!-- /.Want to work together table-->
+    </div>
 
-    <!--Footer-->
+<!-- Button trigger modal-->
+<!-- Modal taken from Bootstrap-->
+    <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="requestModalLabel">Thank You for Your request!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                I will answer within 1-2 business days.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- /.Want to work together table-->
+
+<!--Footer-->
+<!--Taken from Love Running-->
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -127,7 +130,7 @@
             </div>
         </div>        
     </footer>
-    <!-- /.Footer-->    
+<!-- /.Footer-->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
