@@ -1,39 +1,29 @@
-# Portfolio
+# Dina Papsujevica Portfolio
 
+Milestone Project 1 - User-Centric Front-end
 
-This project is created with the purpose of introducing 
-my future employers and partners with me, my skills and previous projects I have done.
+The website is created with the purpose to present potential employers with myself, my skills and work experience as well as previous projects I have worked on.
 
+## Mockup
+
+![Portfolio mockup](mockup.png)
 
 ## UX
 
-## Features
+My goal in the design was to tell the user a story about a girl, who has grown up in the small city next to the beach, but with the big dreams.
+Until one day, life takes her to the big city - Copenhagen.
 
-### Existing Features
-
-### Features Left to Implement
-
-## Technologies Used
-
-## Testing
-
-## Deployment
-
-## Credits
-
-### Content
-
-### Media
-
-### Acknowledgements
-
-
- My web page consists of 4 sections:
+Website consists of 4 sections:
 
     * About
     * Experience
     * Portfolio
     * Download
+
+## Features
+
+
+### Existing Features
 
 #### About
  
@@ -60,5 +50,48 @@ The last section gives to the user opportunity to open and download my complete 
 
 The web page has been made very simple and easy understandable for the user. It is easy to navigate through sections and 
 easy to find a way to contact me.
+
+### Features Left to Implement
+
+* In Portfolio section I would like to add real projects, maybe to give it some animation, like slideshow with description and links to them.
+* Paper plane which is right now as PNG file, I would like to make it animated.
+
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap 4.5.2 (https://getbootstrap.com/)
+    * Bootsrap was used as it was a convenient solution for several objects in my website.
+* Code institute course Projects
+    * I used some snippets from course tutorials as I saw them usefull for my own project. 
+* W3scools.com (https://www.w3schools.com/)
+    * was used for Responsive Image Grid in my Portfolio section
+
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+All content in this website were written by me.
+
+### Media
+
+Header, Footer and paper plane images were taken from [Google.com](www.google.com), they were edited by me. 
+My profile picture was taken from my personal folder.
+Images for the Portfolio section were taken from [Pexels](www.pexels.com), and from my friend's, with her permission, Sanita Masule [Artberry](www.artberry.lv) portfolio page.
+
+### Acknowledgements
+
+* I received inspiration for this project from CI tutorials like Love Running, Rosie and Whiskey Drop.
+* Code Institute student support
+* Slack community
+
+ 
+
+
 
 
