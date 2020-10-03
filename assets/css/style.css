@@ -15,19 +15,15 @@ body {
 /*---------------------------------------Nav */
 
 .nav-item {
-    font-family: Lato;
     font-size: 110%;
     letter-spacing: 4px;
     padding: 2px 0;
 }
 
 .nav-item a {
-    text-decoration: none;
     color: #34495E;
     margin-left: 35%;
-    margin-right: 35%;
     text-transform: uppercase;
-    font-size: 100%;
 }
 
 @media (max-width: 630px) {
@@ -39,16 +35,14 @@ body {
     
 }
 .nav-item a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #212F3D;
 }
 
 .nav-link {
     width: 100%;
 }
 .active {
-    border-bottom: 1px solid #777777;
-    margin-left: 35%;
-    margin-right: 35%;
+    border-bottom: 1px solid #212F3D;
 }
 
 
@@ -118,17 +112,23 @@ body {
 
 #paper-plane-section h2 {
     text-transform: uppercase;
-    margin: 30px 0;
+    margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 #bottom-text {
     padding-left: 170px;
-    padding-top: 40px;
+    margin-top: 55px;
+}
+
+#bottom-text h2 {
+    margin-bottom: 20px;
 }
 
 #paper-plane {
     height: 300px;
     width: 70%;
+    margin-bottom: 50px;
     background: url(../images/paper-plane.png) no-repeat center center;
 }
 
@@ -187,8 +187,8 @@ body {
 
 
 #btn-contact {
-    padding-top: 220px;
-    padding-left: 150px;
+    margin-top: 306px;
+    text-align: center;
 }
 
 #btn-download {
@@ -308,7 +308,7 @@ body {
 .dates {
     font-family: Lato, sans-serif;
     font-weight: 700;
-    vertical-align: center;
+    
 }
 
 
