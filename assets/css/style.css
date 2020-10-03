@@ -400,6 +400,14 @@ body {
     padding-bottom: 10px;
 }
 
+
+@media (max-width: 630px) {
+    .form-row {
+        font-size: 80%;
+}
+}
+
+
 /*---------------------------------------Footer links */
 
 

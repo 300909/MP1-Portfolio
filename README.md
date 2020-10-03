@@ -10,7 +10,7 @@ The website is created with the purpose to present potential employers with myse
 
 ## UX
 
-My goal in the design was to tell the user a story about a girl, who has grown up in the small city next to the beach, but with the big dreams.
+My goal in the design was to tell the user a story about a girl with the big dreams, who has grown up in the small city by the beach.
 Until one day, life takes her to the big city - Copenhagen.
 
 Website consists of 4 sections:
