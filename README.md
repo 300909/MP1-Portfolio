@@ -25,11 +25,11 @@ Website consists of 4 sections:
     * Portfolio
     * Download
 
-Wireframes for this website available here:
+Wireframes available here:
 
-![About](About.png)
-![About-mobile](About-mobile.png)
-![Experience](Experience.png)
+* ![About](About.png)
+* ![About-mobile](About-mobile.png)
+* ![Experience](Experience.png)
 
 ## Features
 
