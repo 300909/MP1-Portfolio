@@ -187,13 +187,14 @@ body {
 
 
 #btn-contact {
-    margin-top: 306px;
     text-align: center;
+    margin-top: auto;
 }
 
-#btn-download {
+
+#btn-download {  
     text-align: center;
-    margin-top: 62px;
+    margin-top: auto;
 }
 
 .btn-request {
@@ -297,8 +298,6 @@ body {
 
 .table h4 {
     text-transform: uppercase;
-    padding-top: 20px;
-
 }
 
 .left-side {
