@@ -27,9 +27,9 @@ Website consists of 4 sections:
 
 Wireframes for this website available here:
 
-![About](wireframes/About.png)
-![About-mobile](wireframes/About-mobile.png)
-![Experience](wireframes/Experience.png)
+![About](About.png)
+![About-mobile](About-mobile.png)
+![Experience](Experience.png)
 
 ## Features
 
