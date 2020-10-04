@@ -25,7 +25,11 @@ Website consists of 4 sections:
     * Portfolio
     * Download
 
-Wireframes for this website available here ....
+Wireframes for this website available here:
+
+![About](wireframes/About.png)
+![About-mobile](wireframes/About-mobile.png)
+![Experience](wireframes/Experience.png)
 
 ## Features
 
@@ -39,7 +43,7 @@ Top image and social media links in the footer follows through all s
 Social media links open in a new tab and take the user directly to my profiles.
 
 #### About
- 
+
 This section gives to the user two experiences. 
 For sizes below large, the user is able to see my profile picture, read a short description about me and my strengths.
 At the bottom of the page (above the bottom image) are two call to action buttons: Contact Me and Download Resume.
@@ -122,7 +126,7 @@ Social media links will open in a new tab using target="_blank". All links have 
 
 ### Content
 
-All content in this website were written by me.
+All the content on this website was written by me.  
 
 ### Media
 
