@@ -9,14 +9,13 @@ The website is created with the purpose to present potential employers and recru
 
 ### Mockup
 
-![Portfolio mockup](mockup.png)
+![Portfolio mockup](assets/images/mockup.png)
 
-The website has been made very simple and easy understandable for the user. It is easy to navigate through sections and 
-easy to find a way to contact me.
+The website has been made very simple and easily understandable for the user. It is easy to navigate through sections and to find a way to contact me.
 My goal in the design was to tell the user a story about a girl with big dreams, who has grown up in the small city by the beach.
 Until one day, life takes her to the big city - Copenhagen.
 
-As an employer I want to see previous projects I was working on, my skills and abilities. 
+As an employer I want to see previous projects Dina was working on, her skills and abilities. 
 
 Website consists of 4 sections:
 
@@ -27,17 +26,19 @@ Website consists of 4 sections:
 
 Wireframes available here:
 
-* ![About](About.png)
-* ![About-mobile](About-mobile.png)
-* ![Experience](Experience.png)
+* ![About-mobile](wireframes/About-mobile1.jpg)
+* ![About](wireframes/About1.jpg)
+* ![Experience](wireframes/Experience1.jpg)
+* ![Portfolio](wireframes/Portfolio1.jpg)
 
 ## Features
 
 
 ### Existing Features
 
-All sections are easy to navigate from Navbar on top. In mobile, small and medium size Navbar reduces into 3 sections.
-As the Download button is placed right after the **About me** text in the landing page, I chose to remove it from navbar for all sizes except large and extra large.
+All sections are easy to navigate from navbar on top. In screen size extra small and small navbar reduces into 3 sections.
+As the Download button is placed right after the About me text in the landing page, I chose to remove Download from navbar
+for all sizes except large and extra large.
 
 Top image and social media links in the footer follows through all sections.
 Social media links open in a new tab and take the user directly to my profiles.
@@ -45,10 +46,12 @@ Social media links open in a new tab and take the user directly to my
 #### About
 
 This section gives to the user two experiences. 
-For sizes below large, the user is able to see my profile picture, read a short description about me and my strengths.
-At the bottom of the page (above the bottom image) are two call to action buttons: Contact Me and Download Resume.
 
-For large and extra large size, **About** section transforms into two columns, where adds the "story" about my life with a paper plane image in it.
+As a user you are able to read a short description about me and my strengths.
+At the bottom of the page (above the bottom image) there are two call to action buttons: Contact Me and Download Resume.
+
+If the website is viewed on a desktop, **About** section transforms into two columns, as a user you can read a "story" which was created behind this website.
+In smaller screen sizes this part is hidden, leaving the space for About me info.
 
 Pressing the Download Resume button the user is able to open my resume in the new tab and download it. 
 The button Contact Me will link the user to the contact form in the **Portfolio** section.
@@ -63,8 +66,8 @@ In this section, the user can read about my Work experience, which is p
 As a user you are able to see images of my previously done projects. 
 In the bottom part of the page as a user you are able to send me Work together request. 
 Filling out the form user contacts me. 
-After pressing the button - Send Request user can read Thank You message from me, which informs that i will contact back within 1-2 business days.
-That gives the user a feeling about my presence.
+After pressing the button - Send Request, user can read Thank You message from me, which informs that i will contact back within 1-2 business days.
+For the user it gives a feeling of my presence.
 
 #### Download
 
@@ -73,10 +76,10 @@ As a user you are able to open my resume in the new tab and download it.
 
 ### Features Left to Implement
 
-* In the **Portfolio** section I would like to add real projects, maybe to give it some animation, like a slideshow with description and links to them.
+* In the **Portfolio** section I would like to add real projects, to give them animation, like a Image Hover Overlay with the project name, description and link to it.
 * Paper plane which is right now as a PNG file, I would like to make it animated.
-* Work together form is required to fill completely to be able submit request.The 'required' attribute is added to the name, 
-  email, and message fields, so if those fields are not filled in, the form will not submit.
+* I would like to make Work together form to be required to fill completely to be able submit request.
+  The 'required' attribute is added to the name, email, and message fields, so if those fields are not filled in, the form will not submit.
 
 ## Technologies Used
 
@@ -84,6 +87,9 @@ As a user you are able to open my resume in the new tab and download it.
 * CSS
 * Bootstrap 4.5.2 (https://getbootstrap.com/)
     * Bootstrap was used as it was a convenient solution for several objects in my website.
+
+## References
+
 * Code institute video projects
     * I used some snippets from course tutorials as I saw them useful for my own project. 
 * W3scools.com (https://www.w3schools.com/)
@@ -101,25 +107,35 @@ For testing code validity i used:
 
 During the tests the user story was achieved, providing the user with information of myself and my work. 
 
-Navbar links take the user through all sections, emphasizing the active section with underline.
+1. About:
+    * Go to website https://dinapapsujevica.github.io/MP1-Portfolio/
+    * Try to navigate through navbar on top. All sections opens smoothly, emphasizing the active section with underline.
+    Navbar reduces into 3 sections in screen sizes extra small and small.
+    * Try to press Contact Me button. It takes to **Portfolio** section where is Contact form to contact me. 
+    * Try to press Download Resume button. 
+    For the desktop user, resume opens in a new tab and gives opportunity to download it.
+    For mobile phones - it will download to your default folder for downloads.
 
-In the about me section, users can read about my background and my strengths. 
-If the website is viewed on a desktop, the user can read a "story" which was created behind this website.
-In smaller sizes this part is hidden, leaving the space for About me info.
+2. Experience:
+    * Try to press **Experience** on navbar to open smoothly section with skills and previous work experience. 
+    This section works responsive on different browsers and screen sizes.
 
-Call to action button - Contact Me takes user to contact form in **Portfolio** section. Pressing Send Request, 
-modal pops up, giving nice feedback to the user that the message was received.
- 
-If all fields are valid, the user can read a message about being contacted in the next few days. 
+3. Portfolio:
+    * Try to press **Portfolio** on navbar to open smoothly section with conatct form and portfolio.
+    * Try to press Send Request bellow the Contact form. Modal will pops up, giving nice feedback to the user that the message was received. 
+    * Try to press Close to close modal.
 
-For the desktop user, resume opens in a new tab and gives opportunity to download it.
-For mobile phones - it will download to your default folder for downloads.
+4. Download:
+    * Try to press **Download** on navbar to open resume in new tab and download it.
+    On screen sizes extra small and small, option to Download Resume is available bellow About Me text on landing page.
 
-Social media links will open in a new tab using target="_blank". All links have been manually tested to ensure that they are linked to the right destination.
+5. Social media links:
+    * Try to press Social media icons in the footer of each section through the whole website.
+    Links will open in a new tab using target="_blank". All links have been manually tested to ensure that they are linked to the right destination.
 
 ### Fixed bugs
 
-* responsivness of Navbar in smaller sizes
+* responsivness of navbar in smaller sizes
 * Contact Me and Download Resume button align in About section
 * image path for Portfolio section
 

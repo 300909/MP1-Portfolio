@@ -11,9 +11,7 @@ body {
     }
 }
 
-
 /*---------------------------------------Nav */
-
 .nav-item {
     font-size: 110%;
     letter-spacing: 4px;
@@ -32,7 +30,6 @@ body {
         margin-left: 0%;
         font-weight: 700;
     }
-    
 }
 .nav-item a:hover {
     border-bottom: 1px solid #212F3D;
@@ -41,10 +38,10 @@ body {
 .nav-link {
     width: 100%;
 }
+
 .active {
     border-bottom: 1px solid #212F3D;
 }
-
 
 /*---------------------------------------Top-image */
 #img-fluid {
@@ -57,21 +54,14 @@ body {
 }
 
 @media (max-width: 630px) {
-#img-fluid {
+    #img-fluid {
         height: 150px;
         background-size: cover;
         background-position: center;
-        
     }
 }
 
-.image-col-12 {
-    flex: 0 0 100%;
-    max-width: 88%;
-}
-
 /*---------------------------------------Cover text */
-
 .cover-text {
     color:#34495E;
     float: right;
@@ -89,7 +79,6 @@ body {
     float: right;
 }
 
-
 .cover-text-small {
     color:#34495E; 
     font-family: Oswald;
@@ -105,9 +94,7 @@ body {
     font-size: 20px;
 }
 
-
 /*---------------------------------------Paper plane section */
-
 #paper-plane-section {
     display: flex;
     flex-direction: column;
@@ -138,10 +125,7 @@ body {
     background: url(../images/paper-plane.png) no-repeat center center;
 }
 
-
-
 /*---------------------------------------About me section */
-
 #about-me {
     padding-top: 20px;
 }
@@ -176,7 +160,6 @@ body {
     margin-top: 50px;
 }
 
-
 /*---------------------------------------Action buttons */
 
 .btn {
@@ -193,6 +176,7 @@ body {
     border-color: #C0392B;
 }
 
+/* DRY */
 #btn-contact {
      text-align: center;
 }
@@ -222,9 +206,7 @@ body {
     }
 }
    
-   
 /*---------------------------------------Bottom-image */
-
 #bottom-image {
     background: url(../images/cph-nyhavn.jpg);
     height: 420px;
@@ -245,8 +227,6 @@ body {
     }
 }
 
-
-
 /*---------------------------------------Skills */
 
 .hard-skills {
@@ -260,7 +240,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 20px;
-    
 }
 
 .soft-skills {
@@ -301,9 +280,7 @@ body {
     }
 }
 
-
 /*---------------------------------------Work experience */
-
 #work-experience {
     padding-top: 40px;
     background-color: #f2d7d5;
@@ -314,10 +291,16 @@ body {
     text-align: center;
     margin: 30px 0;
     padding-bottom: 30px;
+    color:  #34495E;
+}
+
+.table {
+    color:  #34495E;
 }
 
 .table h4 {
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .left-side {
@@ -325,11 +308,8 @@ body {
 }
 
 .dates {
-    font-family: Lato, sans-serif;
     font-weight: 700;
-    
 }
-
 
 .time-table {
     vertical-align: top;
@@ -354,9 +334,7 @@ body {
     }
 }
 
-
 /*---------------------------------------Portfolio */
-
 .project-done {
     width: 100%;
 }
@@ -366,7 +344,6 @@ body {
     text-align: center;
     margin: 30px 0;
 }
-
 
 .portfolio {
     display: flex;
@@ -396,9 +373,7 @@ body {
     }
 }
 
-
 /*---------------------------------------Work together */
-
 .work-together {
     height: 500px;
     width: 100%;
@@ -423,13 +398,10 @@ body {
 @media (max-width: 630px) {
     .form-row {
         font-size: 80%;
+    }
 }
-}
-
 
 /*---------------------------------------Footer links */
-
-
 .social-networks {
     line-height: 75px;
     list-style-type: none;
