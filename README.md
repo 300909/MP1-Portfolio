@@ -147,7 +147,8 @@ The website is hosted usign GitHub and deployed directly from the master branch.
 All changes in website will be updated automatically once command 'git push' is runned.
 In order to deploy website correctly on GitHub, the landing page must be named 'index.html'.
 
-Live version of the website can be found under this link: (https://dinapapsujevica.github.io/MP1-Portfolio/) 
+Live version of the website can be found under the link: (https://dinapapsujevica.github.io/MP1-Portfolio/).  
+Source code on GitHub can be found under the link: (https://github.com/DinaPapsujevica/MP1-Portfolio.git).
 
 
 ## Credits
@@ -167,6 +168,7 @@ All the content on this website was written by me.  
 * I received inspiration for this project from Code Institute projects like Love Running, Rosie and Whiskey Drop.
 * Code Institute student support
 * Slack community
+* I took some ideas for my README.md file from Student example project - Haley Schafer portfolio
 * I received a help in the middle of project from Anna Porofijeva
 * For testing user experience I received help from Ieva Malta
 
