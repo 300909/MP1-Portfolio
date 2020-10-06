@@ -161,7 +161,6 @@ body {
 }
 
 /*---------------------------------------Action buttons */
-
 .btn {
     background-color:#D98880;
     border-color:#D98880; 
@@ -176,7 +175,6 @@ body {
     border-color: #C0392B;
 }
 
-/* DRY */
 #btn-contact {
      text-align: center;
 }
@@ -228,7 +226,6 @@ body {
 }
 
 /*---------------------------------------Skills */
-
 .hard-skills {
     height: 400px;
     width: 100%;

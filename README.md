@@ -141,6 +141,14 @@ During the tests the user story was achieved, providing the user with inf
 * Contact Me and Download Resume button align in About section
 * image path for Portfolio section
 
+## Deployment
+
+The website is hosted usign GitHub and deployed directly from the master branch.
+All changes in website will be updated automatically when command 'git push' is runned.
+In order to deploy website correctly on GitHub, the landing page must be named 'index.html'.
+
+Live version of the website can be found under this link: (https://dinapapsujevica.github.io/MP1-Portfolio/) 
+
 
 ## Credits
 
