@@ -19,12 +19,12 @@ As an employer I want to see previous projects Dina was working on, her skills a
 
 Website consists of 4 sections:
 
-    * About
-    * Experience
-    * Portfolio
-    * Download
+* **About**
+* **Experience**
+* **Portfolio**
+* **Download**
 
-Wireframes available here:
+Wireframes are available here:
 
 * ![About-mobile](wireframes/About-mobile1.jpg)
 * ![About](wireframes/About1.jpg)
@@ -37,8 +37,8 @@ Wireframes available here:
 ### Existing Features
 
 All sections are easy to navigate from navbar on top. In screen size extra small and small navbar reduces into 3 sections.
-As the Download button is placed right after the About me text in the landing page, I chose to remove Download from navbar
-for all sizes except large and extra large.
+As the Download button is placed right after the About me text in the landing page, I chose to remove Download section from navbar
+for extra small and small screen sizes.
 
 Top image and social media links in the footer follows through all sections.
 Social media links open in a new tab and take the user directly to my profiles.
@@ -50,7 +50,7 @@ This section gives to the user two experiences.
 As a user you are able to read a short description about me and my strengths.
 At the bottom of the page (above the bottom image) there are two call to action buttons: Contact Me and Download Resume.
 
-If the website is viewed on a desktop, **About** section transforms into two columns, as a user you can read a "story" which was created behind this website.
+If the website is viewed on a desktop or tablet, **About** section transforms into two columns, as a user you can read a "story" which was created behind this website.
 In smaller screen sizes this part is hidden, leaving the space for About me info.
 
 Pressing the Download Resume button the user is able to open my resume in the new tab and download it. 
@@ -79,7 +79,7 @@ As a user you are able to open my resume in the new tab and download it.
 * In the **Portfolio** section I would like to add real projects, to give them animation, like a Image Hover Overlay with the project name, description and link to it.
 * Paper plane which is right now as a PNG file, I would like to make it animated.
 * I would like to make Work together form to be required to fill completely to be able submit request.
-  The 'required' attribute is added to the name, email, and message fields, so if those fields are not filled in, the form will not submit.
+  The 'required' attribute will be added to the name, email, and message fields, so if those fields are not filled in, the form will not submit.
 
 ## Technologies Used
 
@@ -94,7 +94,8 @@ As a user you are able to open my resume in the new tab and download it.
     * I used some snippets from course tutorials as I saw them useful for my own project. 
 * W3scools.com (https://www.w3schools.com/)
     * was used for Responsive Image Grid in my **Portfolio** section, hero image 
-* [CSS tricks] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 
 
 ## Testing
@@ -109,28 +110,29 @@ During the tests the user story was achieved, providing the user with inf
 
 1. About:
     * Go to website https://dinapapsujevica.github.io/MP1-Portfolio/
-    * Try to navigate through navbar on top. All sections opens smoothly, emphasizing the active section with underline.
+    * Try to navigate through navbar on top. All sections opens smoothly, emphasizing the active section with underline.  
     Navbar reduces into 3 sections in screen sizes extra small and small.
-    * Try to press Contact Me button. It takes to **Portfolio** section where is Contact form to contact me. 
-    * Try to press Download Resume button. 
+    * Try to press Contact Me button. It takes to **Portfolio** section where you can find Contact form in order to contact me. 
+    * Try to press Download Resume button.   
     For the desktop user, resume opens in a new tab and gives opportunity to download it.
     For mobile phones - it will download to your default folder for downloads.
 
 2. Experience:
-    * Try to press **Experience** on navbar to open smoothly section with skills and previous work experience. 
+    * Try to press **Experience** on navbar to open smoothly section with skills and previous work experience.  
     This section works responsive on different browsers and screen sizes.
 
 3. Portfolio:
     * Try to press **Portfolio** on navbar to open smoothly section with conatct form and portfolio.
     * Try to press Send Request bellow the Contact form. Modal will pops up, giving nice feedback to the user that the message was received. 
-    * Try to press Close to close modal.
+    * Try to press Close to close modal.  
+    This section works responsive on different browsers and screen sizes.
 
 4. Download:
-    * Try to press **Download** on navbar to open resume in new tab and download it.
-    On screen sizes extra small and small, option to Download Resume is available bellow About Me text on landing page.
+    * Try to press **Download** on navbar to open resume in new tab and download it.  
+    On screen sizes extra small and small, option to Download Resume is available bellow About Me text in landing page.
 
 5. Social media links:
-    * Try to press Social media icons in the footer of each section through the whole website.
+    * Try to press Social media icons in the footer of each section through the whole website.  
     Links will open in a new tab using target="_blank". All links have been manually tested to ensure that they are linked to the right destination.
 
 ### Fixed bugs
@@ -148,9 +150,9 @@ All the content on this website was written by me.  
 
 ### Media
 
-Header, Footer and paper plane images were taken from [Google.com](www.google.com), they were edited by me. 
-My profile picture was taken from my personal folder.
-Images for the **Portfolio** section were taken from [Pexels](www.pexels.com).
+* Header, Footer and paper plane images were taken from [Google.com](www.google.com), they were edited by me.   
+* My profile picture was taken from my personal folder.  
+* Images for the **Portfolio** section were taken from [Pexels](www.pexels.com).
 
 ### Acknowledgements
 
